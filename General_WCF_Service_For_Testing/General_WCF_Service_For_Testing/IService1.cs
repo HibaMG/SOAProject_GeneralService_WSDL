@@ -13,7 +13,7 @@ namespace General_WCF_Service_For_Testing
     {
 
         [OperationContract]
-        bool GetStatus(bool value);
+        bool GetStatus(bool value1, bool value2);
 
 
     }
