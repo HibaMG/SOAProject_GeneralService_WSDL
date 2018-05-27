@@ -19,9 +19,9 @@ namespace General_WCF_Service_For_Testing
         /// </summary>
         /// <param name="value"></param>
         /// <returns></returns>
-        public bool GetStatus(int value)
+        public bool GetStatus(bool value)
         {
-            if (value == 1)
+            if (value == true)
             { return true; }
 
             else return false;
